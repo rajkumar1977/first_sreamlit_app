@@ -17,4 +17,4 @@ streamlit.multiselect("Pick Some fruits:",list(my_fruit_list.index))
 #display table on range
 streamlit.dataframe(my_fruit_list)
 #let put picklist which you need
-streamlit.multiselect("Pick Some fruits:",list(my_fruit_list.index)['Avacoda','Strawberries'])
+streamlit.multiselect("Pick Some fruits:",list(my_fruit_list.index),['Avacoda','Strawberries'])
