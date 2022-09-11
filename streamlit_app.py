@@ -16,3 +16,5 @@ my_fruit_list= pandas.read_csv("https://uni-lab-files.s3.us-west-2.amazonaws.com
 streamlit.multiselect("Pick Some fruits:",list(my_fruit_list.index))
 #display table on range
 streamlit.dataframe(my_fruit_list)
+#let put picklist which you need
+streamlit.multiselect("Pick Some fruits:",list(my_fruit_list.index)['Avacoda','Strawberries'])
