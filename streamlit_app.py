@@ -24,4 +24,4 @@ streamlit.dataframe(fruits_to_show)
 #streamlit.dataframe(my_fruit_list)
 #let put picklist which you need
 #streamlit.multiselect("Pick Some fruits:",list(my_fruit_list.index),['Avacoda','Strawberries'])
-import snowflake.connector-python
+import snowflake-connector-python
