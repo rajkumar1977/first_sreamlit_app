@@ -23,4 +23,5 @@ streamlit.dataframe(fruits_to_show)
 #display table on range
 
 
+
 import snowflake.connector
