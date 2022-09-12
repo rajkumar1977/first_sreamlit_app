@@ -7,18 +7,21 @@ streamlit.text('🥗 Kale, Spinach & Rocket Smoothie')
 streamlit.text('🐔 Hard-Boiled Free-Range Egg')
 streamlit.text('🥑🍞 Avacoda Toast')
 streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
+
+
+
+
+
+
+import streamlit
+streamlit.title('Fruityvice Fruit Advice!')
+
 #let put picklist
 import pandas
 fruits_selected=streamlit.multiselect("Pick Some fruits:",list(my_fruit_list.index))
 fruits_to_show = my_fruit_list.loc[fruits_selected]
 streamlit.dataframe(fruits_to_show)
 #display table on range
-
-
-
-
-
-
 
 
 
