@@ -22,6 +22,7 @@ fruits_selected=streamlit.multiselect("Pick Some fruits:",list(my_fruit_list.ind
 fruits_to_show = my_fruit_list.loc[fruits_selected]
 streamlit.dataframe(fruits_to_show)
 #display table on range
+streamlit.header("Fruityvice Fruit Advice!")
 
 
 
