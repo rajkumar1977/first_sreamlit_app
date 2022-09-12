@@ -15,7 +15,7 @@ streamlit.dataframe(my_fruit_list)
 #my_fruit_list=my_fruit_list.set_index('Fruit')
 #let put picklist
 fruits_selected=streamlit.multiselect("Pick Some fruits:",list(my_fruit_list.index),['Avacoda','Strawberries'])
-fruits_to_show=my_fruit_list.loc[fruits_selected]
+fruits_to_show = my_fruit_list.loc[fruits_selected]
 streamlit.dataframe(fruits_to_show)
 #display table on range
 #streamlit.dataframe(my_fruit_list)
