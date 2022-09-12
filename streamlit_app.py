@@ -21,7 +21,8 @@ fruits_selected=streamlit.multiselect("Pick Some fruits:",list(my_fruit_list.ind
 fruits_to_show = my_fruit_list.loc[fruits_selected]
 streamlit.dataframe(fruits_to_show)
 #display table on range
-#streamlit.dataframe(my_fruit_list)
+import pandas
+streamlit.dataframe(my_fruit_list)
 #let put picklist which you need
-#streamlit.multiselect("Pick Some fruits:",list(my_fruit_list.index),['Avacoda','Strawberries'])
+streamlit.multiselect("Pick Some fruits:",list(my_fruit_list.index),['Avacoda','Strawberries'])
 import snowflake.connector
